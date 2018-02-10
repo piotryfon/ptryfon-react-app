@@ -4,18 +4,20 @@ import Data from './Data';
 import Item from "./components/Item.js";
 
 class App extends React.Component {
-
+handleClick(id){
+    //wyświetl modal
+}
     render() {
 
         return (
 
              Data.filter(x => x.isActive).map(item =>
-             <Item
+             <Item click={handleClick}
                 id={item.id}
                 title={item.title}
-                isActive={item.isActive}
+                //isActive={item.isActive}
                 img={item.img}
-                description={item.description}
+                //description={item.description}
                 date={item.date}
                 tags={item.tags}
              />

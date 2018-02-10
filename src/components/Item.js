@@ -4,7 +4,7 @@ const Item = (props) => {
 
     return(
 
-        <ul>
+        <ul onClick={props.click.bind(null, props.id)}>
             <li>
                 <img src={props.img}/>
             </li>
