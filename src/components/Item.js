@@ -3,7 +3,6 @@ import React from 'react';
 const Item = (props) => {
 
     return(
-
         <ul onClick={props.click.bind(null, props.id)}>
             <li>
                 <img src={props.img}/>
@@ -21,6 +20,7 @@ const Item = (props) => {
                 {props.tags.toString()}
             </li>
         </ul>
+
     )
 };
 
