@@ -20,7 +20,6 @@ const Item = (props) => {
                 {props.tags.toString()}
             </li>
         </ul>
-
     )
 };
 

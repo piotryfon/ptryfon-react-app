@@ -2,7 +2,7 @@ import React from 'react';
 import Data from './Data';
 import {Modal} from 'react-bootstrap'
 
-import Item from "./components/Item.js";
+import Item from "./Item.js";
 
 class App extends React.Component {
     constructor(props) {
@@ -50,6 +50,6 @@ class App extends React.Component {
                 </Modal>
             </div>
         )
-}
+    }
 }
 export default App

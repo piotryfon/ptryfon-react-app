@@ -1,5 +1,4 @@
 const Data = [
-
     {
         "id": 0,
         "title": "officia",
