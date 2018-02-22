@@ -23,7 +23,6 @@ class App extends React.Component {
     };
 
     render() {
-
         return (
             <div>
                 {this.state.itemList.filter(x => x.isActive).map(item =>
@@ -44,9 +43,7 @@ class App extends React.Component {
 
                     <Modal.Body>{this.state.item.date}</Modal.Body>
 
-                    <Modal.Footer>
-
-                    </Modal.Footer>
+                    <Modal.Body>{this.state.item.tags}</Modal.Body>
                 </Modal>
             </div>
         )
